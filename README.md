@@ -30,14 +30,25 @@ Execute a aplicação:
 ```bash
 Copiar código
 ./mvnw spring-boot:run
-Endpoints
-Autenticação
+````
+#Endpoints
+##Autenticação
+```
 POST /login: Realiza o login e retorna um token JWT.
-Tópicos
+```
+#Tópicos
+```
 GET /topicos: Lista todos os tópicos.
 POST /topicos: Cria um novo tópico.
 GET /topicos/{id}: Busca um tópico por ID.
 PUT /topicos/{id}: Atualiza um tópico existente.
 DELETE /topicos/{id}: Exclui um tópico.
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+```
+
+## Contribuição
+Este é um projeto pessoal de aprendizado. Qualquer sugestão ou correção é bem-vinda! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Autor
+**Gustavo Pastoriza**
+
+**Email:** [gustavo.pastoriza@gmail.com](mailto:gustavo.pastoriza@gmail.com)
